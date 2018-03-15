@@ -4,7 +4,7 @@ var btn = document.getElementById("btn");
 btn.addEventListener("click", function(){
 
     var myComments = new XMLHttpRequest();
-    myComments.open('GET', 'https://jsonplaceholder.typicode.com/comments?postId=' + pageCounter );
+    myComments.open('GET', 'https://jsonplaceholder.typicode.com/comments?postId' + pageCounter );
     myComments.onload = function(){
         var ourData = JSON.parse(myComments.responseText);
         renderHTML(ourData);
