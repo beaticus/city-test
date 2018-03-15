@@ -13,17 +13,13 @@ btn.addEventListener("click", function(){
     
     myComments.send();
     pageCounter++;
-    if (pageCounter > 10) {
-        btn.classList.add("hide-me");
-    }
-
 });
 
 function renderHTML(data){
     var htmlString = ""; 
 
     for (i = 0; i < data.length; i++) {
-        htmlString += "<ul>" + "<li>" + " Name: " + data[i].name + "</li>" + "<li>" + " Email address: " + data[i].email + "</li>" + "<li>" + " Comment: " + data[i].body + "</li>" + ".</ul>";
+        htmlString += "<ul>" + "<li>" + " Name: " + data[i].name + "</li>" + "<li>" + " Email address: " + data[i].email + "</li>" + "<li>" + " Comment: " + data[i].body + "</li>" + "</ul>";
     }
 
 
