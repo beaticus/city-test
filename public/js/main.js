@@ -1,4 +1,3 @@
-
 var pageCounter = 1;
 var commentsContainer = document.getElementById("comment-info");
 var btn = document.getElementById("btn");
@@ -25,6 +24,8 @@ function renderHTML(data){
 
     commentsContainer.insertAdjacentHTML('beforeend', htmlString)
 }
+
+
 
 
 

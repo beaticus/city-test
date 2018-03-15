@@ -28,7 +28,7 @@ header {
   }
   
   button {
-    background-color: #c14d51;
+    background-color: #8f182e;
     color: #FFF;
     border: none;
     padding: 10px 15px;
@@ -64,9 +64,6 @@ header {
     margin: 0;
   }
 
-  ul {
-    padding: 0;
-  }
 
   ul {
 
@@ -75,6 +72,10 @@ header {
     margin-bottom: 5px;
     border: 1px solid #eee;
     list-style-type: none;
+  }
+
+  ul li {
+
     font-family: sans-serif, Helvetica;
     font-size: 14px;
   }
